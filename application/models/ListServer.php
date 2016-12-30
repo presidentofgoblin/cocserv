@@ -2,15 +2,12 @@
 
 class ListServer extends CI_Model
 {
-    private $id;
     private $info;
 
     public function getInfo($id)
     {
-        $this->id = $id;
-        $this->db->select('*');
-        $this->db->from('servers');
-        $this->info = $this->db->get();
+        $sql = "SELECT * FROM servers ORDER BY votes DESC";
+        $this->info = $this->db->query($sql);
     }
 
     public function info()

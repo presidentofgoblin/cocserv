@@ -15,3 +15,7 @@ $config['database'] = '';
 /*
  *
  */
+
+$config['site_name'] = '';
+$config['site_keywords'] = '';
+$config['site_description'] = '';
