@@ -4,6 +4,7 @@ class ListServer extends CI_Model
 {
     private $id;
     private $info;
+    private $limit;
 
     public function getInfo($id)
     {
@@ -11,10 +12,12 @@ class ListServer extends CI_Model
         $this->db->select('*');
         $this->db->from('servers');
         $this->info = $this->db->get();
+
+        $this->givehtml();
     }
 
-    public function info()
+    public function givehtml()
     {
-        return $this->info;
+
     }
 }
