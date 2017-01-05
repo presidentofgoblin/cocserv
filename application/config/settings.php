@@ -7,11 +7,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  *
  */
 
-$config['hostname'] = '';
-$config['username'] = '';
+$config['hostname'] = 'localhost';
+$config['username'] = 'root';
 $config['password'] = '';
-$config['database'] = '';
+$config['database'] = 'smartlists';
 
 /*
  *
  */
+
+$config['site_name'] = 'Smart Lists';
+$config['site_keywords'] = '';
+$config['site_description'] = '';

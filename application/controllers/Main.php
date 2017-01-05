@@ -21,7 +21,17 @@ class Main extends CI_Controller {
 	public function index()
 	{
         $this->load->view('templates/header');
-        $this->load->view('home', $data);
+        $this->load->view('home');
         $this->load->view('templates/footer');
+	}
+
+    public function server($id)
+    {
+
+	}
+
+    public function vote($id)
+    {
+
 	}
 }
