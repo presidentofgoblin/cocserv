@@ -20,9 +20,9 @@ class Main extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('templates/header');
-		echo 'hello';
-		$this->load->view('templates/footer');
+        $this->load->view('templates/header');
+        $this->load->view('home');
+        $this->load->view('templates/footer');
 	}
 
     public function server($id)
@@ -33,5 +33,11 @@ class Main extends CI_Controller {
     public function vote($id)
     {
 
+	}
+
+    public function install()
+    {
+        $this->load->model('Database');
+        $this->Database->run();
 	}
 }

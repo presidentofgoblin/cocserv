@@ -2,7 +2,252 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0332f20-6a5e-41bb-a44a-7ce61240c130" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/Install.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/Database.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/COMPOSER_RELEASE_NOTES.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/COPYING.lib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/INHERITANCE_RELEASE_NOTES.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/NEW_FEATURES.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/SMARTY_2_BC_NOTES.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/SMARTY_3.0_BC_NOTES.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/SMARTY_3.1_NOTES.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/change_log.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/demo/configs/test.conf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/demo/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/demo/plugins/cacheresource.apc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/demo/plugins/cacheresource.memcache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/demo/plugins/cacheresource.mysql.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/demo/plugins/cacheresource.pdo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/demo/plugins/cacheresource.pdo_gzip.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/demo/plugins/resource.extendsall.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/demo/plugins/resource.mysql.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/demo/plugins/resource.mysqls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/demo/templates/footer.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/demo/templates/header.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/demo/templates/index.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/lexer/smarty_internal_configfilelexer.plex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/lexer/smarty_internal_configfileparser.y" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/lexer/smarty_internal_templatelexer.plex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/lexer/smarty_internal_templateparser.y" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/Autoloader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/Smarty.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/SmartyBC.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/debug.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/block.textformat.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/function.counter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/function.cycle.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/function.fetch.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/function.html_checkboxes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/function.html_image.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/function.html_options.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/function.html_radios.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/function.html_select_date.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/function.html_select_time.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/function.html_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/function.mailto.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/function.math.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/modifier.capitalize.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/modifier.date_format.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/modifier.debug_print_var.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/modifier.escape.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/modifier.regex_replace.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/modifier.replace.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/modifier.spacify.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/modifier.truncate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/modifiercompiler.cat.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/modifiercompiler.count_characters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/modifiercompiler.count_paragraphs.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/modifiercompiler.count_sentences.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/modifiercompiler.count_words.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/modifiercompiler.default.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/modifiercompiler.escape.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/modifiercompiler.from_charset.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/modifiercompiler.indent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/modifiercompiler.lower.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/modifiercompiler.noprint.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/modifiercompiler.string_format.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/modifiercompiler.strip.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/modifiercompiler.strip_tags.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/modifiercompiler.to_charset.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/modifiercompiler.unescape.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/modifiercompiler.upper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/modifiercompiler.wordwrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/outputfilter.trimwhitespace.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/shared.escape_special_chars.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/shared.literal_compiler_param.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/shared.make_timestamp.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/shared.mb_str_replace.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/shared.mb_unicode.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/shared.mb_wordwrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/plugins/variablefilter.htmlspecialchars.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_cacheresource.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_cacheresource_custom.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_cacheresource_keyvaluestore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_data.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_block.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_cacheresource_file.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_compile_append.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_compile_assign.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_compile_block.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_compile_break.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_compile_call.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_compile_capture.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_compile_config_load.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_compile_continue.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_compile_debug.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_compile_eval.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_compile_extends.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_compile_for.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_compile_foreach.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_compile_function.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_compile_if.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_compile_include.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_compile_include_php.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_compile_insert.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_compile_ldelim.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_compile_make_nocache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_compile_nocache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_compile_private_block_plugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_compile_private_foreachsection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_compile_private_function_plugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_compile_private_modifier.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_compile_private_object_block_function.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_compile_private_object_function.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_compile_private_php.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_compile_private_print_expression.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_compile_private_registered_block.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_compile_private_registered_function.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_compile_private_special_variable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_compile_rdelim.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_compile_section.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_compile_setfilter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_compile_shared_inheritance.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_compile_while.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_compilebase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_config_file_compiler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_configfilelexer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_configfileparser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_data.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_debug.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_extension_clear.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_extension_handler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_addautoloadfilters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_adddefaultmodifiers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_append.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_appendbyref.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_assignbyref.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_assignglobal.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_clearallassign.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_clearallcache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_clearassign.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_clearcache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_clearcompiledtemplate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_clearconfig.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_compileallconfig.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_compilealltemplates.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_configload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_createdata.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_getautoloadfilters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_getconfigvars.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_getdebugtemplate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_getdefaultmodifiers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_getglobal.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_getregisteredobject.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_getstreamvariable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_gettags.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_gettemplatevars.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_loadfilter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_loadplugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_mustcompile.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_registercacheresource.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_registerclass.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_registerdefaultconfighandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_registerdefaultpluginhandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_registerdefaulttemplatehandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_registerfilter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_registerobject.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_registerplugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_registerresource.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_setautoloadfilters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_setdebugtemplate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_setdefaultmodifiers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_unloadfilter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_unregistercacheresource.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_unregisterfilter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_unregisterobject.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_unregisterplugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_method_unregisterresource.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_nocache_insert.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_parsetree.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_parsetree_code.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_parsetree_dq.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_parsetree_dqcontent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_parsetree_tag.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_parsetree_template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_parsetree_text.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_resource_eval.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_resource_extends.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_resource_file.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_resource_php.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_resource_registered.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_resource_stream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_resource_string.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_runtime_cachemodify.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_runtime_capture.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_runtime_codeframe.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_runtime_filterhandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_runtime_foreach.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_runtime_getincludepath.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_runtime_inheritance.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_runtime_make_nocache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_runtime_tplfunction.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_runtime_updatecache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_runtime_updatescope.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_runtime_writefile.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_smartytemplatecompiler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_templatebase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_templatelexer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_templateparser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_testinstall.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_internal_undefined.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_resource.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_resource_custom.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_resource_recompiled.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_resource_uncompiled.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_security.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_template_cached.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_template_compiled.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_template_config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_template_resource_base.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_template_source.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_undefined_variable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smarty_variable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smartycompilerexception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/libs/sysplugins/smartyexception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/smarty/travis.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/home.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/install/home.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/SmartLists.iml" afterPath="$PROJECT_DIR$/.idea/SmartLists.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/autoload.php" afterPath="$PROJECT_DIR$/application/config/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/database.php" afterPath="$PROJECT_DIR$/application/config/database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/routes.php" afterPath="$PROJECT_DIR$/application/config/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/settings.php" afterPath="$PROJECT_DIR$/application/config/settings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Main.php" afterPath="$PROJECT_DIR$/application/controllers/Main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/ListServer.php" afterPath="$PROJECT_DIR$/application/models/ListServer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/templates/footer.php" afterPath="$PROJECT_DIR$/application/views/templates/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/templates/header.php" afterPath="$PROJECT_DIR$/application/views/templates/header.php" />
     </list>
     <ignored path="SmartLists.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,43 +268,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/Main.php">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/config/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-              <folding>
-                <marker date="1483199511474" expanded="true" signature="815:817" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/views/templates/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-94">
-              <caret line="0" column="69" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="69" />
+            <state relative-caret-position="782">
+              <caret line="52" column="34" lean-forward="false" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/templates/footer.php">
+      <file leaf-file-name="Install.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/Install.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="69" lean-forward="false" selection-start-line="0" selection-start-column="69" selection-end-line="0" selection-end-column="69" />
+            <state relative-caret-position="153">
+              <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Database.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/Database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="739">
+              <caret line="101" column="18" lean-forward="true" selection-start-line="101" selection-start-column="18" selection-end-line="101" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/install/home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="45" lean-forward="false" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/config/settings.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+            <state relative-caret-position="340">
+              <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -83,17 +336,25 @@
         <option value="$PROJECT_DIR$/app/Scripts/Database.php" />
         <option value="$PROJECT_DIR$/app/Scripts/AddServer.php" />
         <option value="$PROJECT_DIR$/app/Scripts/ServerList.php" />
-        <option value="$PROJECT_DIR$/application/config/database.php" />
-        <option value="$PROJECT_DIR$/application/config/routes.php" />
         <option value="$PROJECT_DIR$/application/controllers/Server.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/application/models/ListServer.php" />
-        <option value="$PROJECT_DIR$/application/views/templates/header.php" />
         <option value="$PROJECT_DIR$/application/views/welcome_message.php" />
         <option value="$PROJECT_DIR$/application/views/templates/footer.php" />
         <option value="$PROJECT_DIR$/application/config/autoload.php" />
         <option value="$PROJECT_DIR$/application/config/settings.php" />
+        <option value="$PROJECT_DIR$/assets/css/styles.css" />
+        <option value="$PROJECT_DIR$/application/models/DatabaseInit.php" />
+        <option value="$PROJECT_DIR$/application/models/DB.php" />
+        <option value="$PROJECT_DIR$/system/core/Loader.php" />
+        <option value="$PROJECT_DIR$/application/views/templates/header.php" />
+        <option value="$PROJECT_DIR$/application/views/home.php" />
+        <option value="$PROJECT_DIR$/application/config/database.php" />
+        <option value="$PROJECT_DIR$/application/models/Database.php" />
+        <option value="$PROJECT_DIR$/application/views/install/home.php" />
         <option value="$PROJECT_DIR$/application/controllers/Main.php" />
+        <option value="$PROJECT_DIR$/application/config/routes.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Install.php" />
       </list>
     </option>
   </component>
@@ -154,6 +415,38 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smartlists" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smartlists" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smartlists" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smartlists" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="application" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -195,6 +488,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smartlists" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smartlists" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="install" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -351,6 +666,7 @@
       <workItem from="1483032779674" duration="915000" />
       <workItem from="1483101576154" duration="631000" />
       <workItem from="1483112802652" duration="3426000" />
+      <workItem from="1483691966360" duration="8031000" />
     </task>
     <task id="LOCAL-00001" summary="Okay, I think we are workinh..">
       <created>1483199671962</created>
@@ -363,27 +679,28 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13205000" />
+    <option name="totallyTimeSpent" value="21236000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2484375" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287879" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287879" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
@@ -406,7 +723,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Okay, I think we are workinh.." />
-    <option name="LAST_COMMIT_MESSAGE" value="Okay, I think we are workinh.." />
+    <MESSAGE value="Just see the interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Just see the interface" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -415,57 +733,12 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/models/ServerInfo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/SiteModels.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2210">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="36" lean-forward="false" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/ListServer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
-            <marker date="1483117254269" expanded="true" signature="118:159" ph="SELECT * FRO... servers" />
+            <marker date="1483692020491" expanded="true" signature="118:159" ph="SELECT * FRO... servers" />
           </folding>
         </state>
       </provider>
@@ -494,22 +767,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/LoginModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/Test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/LoginModel.php" />
+    <entry file="file://$PROJECT_DIR$/application/models/Test.php" />
     <entry file="file://$PROJECT_DIR$/application/views/welcome_message.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
@@ -518,21 +777,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="85" column="27" lean-forward="false" selection-start-line="85" selection-start-column="27" selection-end-line="85" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Test.php" />
     <entry file="file://$PROJECT_DIR$/application/controllers/Main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <marker date="1483199511474" expanded="true" signature="815:817" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -540,9 +790,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding>
-            <marker date="1483199511474" expanded="true" signature="815:817" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -551,7 +799,7 @@
         <state relative-caret-position="204">
           <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
           <folding>
-            <marker date="1483117254269" expanded="true" signature="118:159" ph="SELECT * FRO... servers" />
+            <marker date="1483692020491" expanded="true" signature="118:159" ph="SELECT * FRO... servers" />
           </folding>
         </state>
       </provider>
@@ -560,9 +808,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding>
-            <marker date="1483199511474" expanded="true" signature="815:817" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -571,7 +817,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1483117254269" expanded="true" signature="118:159" ph="SELECT * FRO... servers" />
+            <marker date="1483692020491" expanded="true" signature="118:159" ph="SELECT * FRO... servers" />
           </folding>
         </state>
       </provider>
@@ -580,9 +826,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1483199511474" expanded="true" signature="815:817" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -637,14 +881,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="36" lean-forward="false" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/system/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -660,20 +896,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="80" column="48" lean-forward="false" selection-start-line="80" selection-start-column="48" selection-end-line="80" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/ListServer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
-            <marker date="1483117254269" expanded="true" signature="118:159" ph="SELECT * FRO... servers" />
+            <marker date="1483692020491" expanded="true" signature="118:159" ph="SELECT * FRO... servers" />
           </folding>
         </state>
       </provider>
@@ -702,28 +930,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/settings.php">
+    <entry file="file://$PROJECT_DIR$/system/core/Loader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3982">
+          <caret line="380" column="42" lean-forward="false" selection-start-line="380" selection-start-column="42" selection-end-line="380" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="60" column="47" lean-forward="false" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/templates/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="77" column="18" lean-forward="true" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/Main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-          <folding>
-            <marker date="1483199511474" expanded="true" signature="815:817" ph="..." />
-          </folding>
+        <state relative-caret-position="663">
+          <caret line="39" column="8" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="40" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/templates/header.php">
+    <entry file="file://$PROJECT_DIR$/application/config/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-94">
-          <caret line="0" column="69" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="69" />
+        <state relative-caret-position="782">
+          <caret line="52" column="34" lean-forward="false" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Install.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="739">
+          <caret line="101" column="18" lean-forward="true" selection-start-line="101" selection-start-column="18" selection-end-line="101" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/install/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="45" lean-forward="false" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
           <folding />
         </state>
       </provider>
