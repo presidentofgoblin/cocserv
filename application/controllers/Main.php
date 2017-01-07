@@ -34,4 +34,10 @@ class Main extends CI_Controller {
     {
 
 	}
+
+    public function install()
+    {
+        $this->load->model('Database');
+        $this->Database->run();
+	}
 }

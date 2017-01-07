@@ -1,7 +1,7 @@
 <?php defined('BASEPATH') OR exit('DIRECT SCRIPT ACCESS NOT ALLOWED')  ?>
 
 <div class="row padding-list grey-text text-darken-2">
-    <div class="col s12 m12 l9">
+    <div class="col s12 m12 l10">
         <div class="card light-white">
             <div class="card-content">
                 <center>
@@ -39,8 +39,8 @@
             </div>
         </div>
     </div>
-    <div class="col s12 m12 l3">
-        <div class="card light-white text-center">
+    <div class="col s12 m12 l2">
+        <div class="card light-white">
             <div class="card-content">
                 <span class="card-title">
                     Howdy, Stranger!
@@ -52,6 +52,18 @@
             <div class="card-action">
                 <a href="#">SignIn</a>
                 <a href="#">SignUp</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col s12 m12 l12">
+        <div class="card light-green white-text">
+            <div class="card-content">
+                <span class="card-title">
+                    Awesome, now you can see the speed
+                </span>
+                <p>The page was dynamically generated in just {elapsed_time} seconds</p>
             </div>
         </div>
     </div>
