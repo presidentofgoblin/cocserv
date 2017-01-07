@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d96e0779-df85-4e0b-8d85-d042b87ac980" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/templates/footer.php" afterPath="$PROJECT_DIR$/application/views/templates/footer.php" />
     </list>
     <ignored path="SmartLists.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -322,7 +321,7 @@
       <option name="presentableId" value="Default" />
       <updated>1483621029377</updated>
       <workItem from="1483621037018" duration="3169000" />
-      <workItem from="1483629636141" duration="2212000" />
+      <workItem from="1483629636141" duration="2309000" />
     </task>
     <task id="LOCAL-00001" summary="Awesome, the interface gets masterial lookup">
       <created>1483635375893</created>
@@ -331,11 +330,18 @@
       <option name="project" value="LOCAL" />
       <updated>1483635375893</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Small error">
+      <created>1483635451335</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1483635451335</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5381000" />
+    <option name="totallyTimeSpent" value="5478000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -374,7 +380,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Awesome, the interface gets masterial lookup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Awesome, the interface gets masterial lookup" />
+    <MESSAGE value="Small error" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small error" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
