@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => '127.0.0.1',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'smartlists',
+	'hostname' => 'localhost',
+	'username' => 'smartcla_deploy',
+	'password' => 'deploy',
+	'database' => 'smartcla_smartlists',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
