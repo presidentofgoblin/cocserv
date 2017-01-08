@@ -26,7 +26,7 @@ class Database extends CI_Model
                 'constraint'        => 100,
             ],
 
-            'passwoard'     => [
+            'password'     => [
                 'type'              => 'VARCHAR',
                 'constraint'        => 500,
             ],
