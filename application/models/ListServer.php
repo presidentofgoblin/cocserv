@@ -1,5 +1,7 @@
 <?php
 
+defined('BASEPATH') OR exit('DIRECT SCRIPT ACCESS NOT ALLOWED');
+
 class ListServer extends CI_Model
 {
     private $info;
