@@ -43,15 +43,38 @@
         <div class="card light-white">
             <div class="card-content">
                 <span class="card-title">
-                    Howdy, Stranger!
+                    <?php
+                        if($this->session->loggedin == FALSE){
+                            echo 'Howdy, Stranger!';
+                        } else {
+                            echo 'Howdy, ' . $this->session->username;
+                        }
+                    ?>
                 </span>
                 <p>
-                    Looks like you are new here. Sign in to get recognised or Sign Up to join the party.
+                    <?php
+                        if($this->session->loggedin == FALSE){
+                            echo 'Looks like you are new here. Sign in to get recognised or Sign Up to join the party.';
+                        } else {
+                            echo 'Add your server by clicking link below. Also, get your server listed first by becoming pro user!';
+                        }
+                    ?>
                 </p>
             </div>
             <div class="card-action">
-                <a href="#">SignIn</a>
-                <a href="#">SignUp</a>
+                <?php
+                if($this->session->loggedin == FALSE){
+                    echo "
+                    <a href=\"base_url('auth/login')\">SignIn</a>
+                    <a href=\"base_url('auth/register')\">SignUp</a>
+                    ";
+                } else {
+                    echo '
+                    <a href="base_url(\'servers/add\')">Add server</a>
+                    <a href="base_url(\'user/manage\')">Manage Account</a>
+                    ';
+                }
+                ?>
             </div>
         </div>
     </div>

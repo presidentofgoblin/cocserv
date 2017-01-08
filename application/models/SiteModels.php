@@ -8,7 +8,7 @@
  * Author         : ramad
  */
 
-namespace application\models;
+defined('BASEPATH') OR exit('DIRECT SCRIPT ACCESS NOT ALLOWED');
 
 
 class SiteModels

@@ -6,10 +6,6 @@
 <link rel="stylesheet" href="<?php echo base_url("assets/css/styles.css"); ?>">
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
-<script>
-    $(document).ready(function(){
-        $('.collapsible').collapsible();
-    });
-</script>
+<script src="<?php echo base_url("assets/js/styles.js"); ?>"></script>
 </body>
 </html>

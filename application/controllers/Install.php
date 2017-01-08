@@ -6,7 +6,7 @@ class Install extends CI_Controller
 {
     public function run()
     {
-        $this->load->model('Database');
+        $this->load->model('install/Database');
         $this->Database->run();
     }
 }
