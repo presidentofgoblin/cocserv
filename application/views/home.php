@@ -64,14 +64,14 @@
             <div class="card-action">
                 <?php
                 if($this->session->loggedin == FALSE){
-                    echo "
-                    <a href=\"base_url('auth/login')\">SignIn</a>
-                    <a href=\"base_url('auth/register')\">SignUp</a>
-                    ";
+                    echo '
+                    <a href="auth/login">SignIn</a>
+                    <a href="auth/register">SignUp</a>
+                    ';
                 } else {
                     echo '
-                    <a href="base_url(\'servers/add\')">Add server</a>
-                    <a href="base_url(\'user/manage\')">Manage Account</a>
+                    <a href="#" onclick="start(\'Add Servers\')">Add server</a>
+                    <a href="#" onclick="start(\'Manage Account\')">Manage Account</a>
                     ';
                 }
                 ?>
