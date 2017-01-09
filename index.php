@@ -38,6 +38,18 @@
 
 /*
  *---------------------------------------------------------------
+ * INSTALL FILE DETECTOR
+ * --------------------------------------------------------------
+ *  The code below was not shipped with the codeigniter
+ *  package. This is here as just a security measure.
+ */
+
+if(file_exists('install.php')){
+    die('EIRTHER DELETE THE INSTALL FILE OR INSTALL THE SCRIPT AND DELETE THE FILE :)');
+}
+
+/*
+ *---------------------------------------------------------------
  * APPLICATION ENVIRONMENT
  *---------------------------------------------------------------
  *

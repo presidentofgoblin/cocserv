@@ -19,3 +19,9 @@ $('.dropdown-button').dropdown({
 var start = function (data) {
     alert('Oops, the link "' + data + '" you requested is still under construction');
 };
+
+tinymce.init({ selector:'textarea' });
+
+$(document).ready(function() {
+    $('select').material_select();
+});

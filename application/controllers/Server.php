@@ -1,14 +1,17 @@
 <?php
-/*
- * An product from Smart Hacks Incorporation.
- * Product type   : PHP script
- * Project Name   : SmartLists
- * Last edited on : 28 / 21 / 48
- * File name      : Server.php
- * Author         : ramad
- */
+
+defined('BASEPATH') OR exit('NO DIRECT SCRIPT ACCESS IS ALLOWED');
 
 class Server extends CI_Controller
 {
-
+    public function add()
+    {
+        $this->load->model('auth/Login');
+        if($this->Login->loggedin()){
+            $this->load->model('server/Add_server');
+            $this->Add_server->add();
+        } else {
+            show_error('You are not logged in. Login to create a server', '500');
+        }
+    }
 }

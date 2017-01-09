@@ -27,11 +27,19 @@ class Login extends CI_Model
 
                         // Password and username correct. Good to go
 
+                        // New security : Rehash the password if required.
+                        if(password_needs_rehash($row->password, PASSWORD_BCRYPT)){
+                            $this->db->set('password', password_hash($this->input->post('password'), PASSWORD_BCRYPT));
+                            $this->db->where('id', $row->id);
+                            $this->db->update('users');
+                        }
+
                         $session = [
                             'username' => $this->input->post('username'),
                             'email'    => $row->email,
                             'servers'  => $row->maxservers,
                             'apikey'   => $row->apikey,
+                            'userid'   => $row->id,
                             'loggedin' => TRUE,
                         ];
                         $this->session->set_userdata($session);
