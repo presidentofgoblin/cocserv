@@ -45,7 +45,8 @@
  */
 
 if(file_exists('install.php')){
-    die('EIRTHER DELETE THE INSTALL FILE OR INSTALL THE SCRIPT AND DELETE THE FILE :)');
+    require 'install.php';
+    die();
 }
 
 /*

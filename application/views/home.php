@@ -7,35 +7,17 @@
                 <center>
                     <span class="card-title">ALL SERVERS</span>
                 </center>
+                {server}
                 <ul class="collapsible popout" data-collapsible="accordion">
                     <li class="white">
-                        <div class="collapsible-header"><i class="fa fa-signal green-text"></i>SMART CLASH | NO ROOT | APK | IPA</div>
-                        <div class="collapsible-body"><p>Play the most imposrt and best type of game. The only server that is always online</p></div>
-                    </li>
-                    <li class="white">
-                        <div class="collapsible-header"><i class="fa fa-signal green-text"></i>SMART CLASH | NO ROOT | APK | IPA</div>
-                        <div class="collapsible-body"><p>Play the most imposrt and best type of game. The only server that is always online</p></div>
-                    </li>
-                    <li class="white">
-                        <div class="collapsible-header"><i class="fa fa-signal green-text"></i>SMART CLASH | NO ROOT | APK | IPA</div>
-                        <div class="collapsible-body"><p>Play the most imposrt and best type of game. The only server that is always online</p></div>
-                    </li>
-                    <li class="white">
-                        <div class="collapsible-header"><i class="fa fa-signal green-text"></i>SMART CLASH | NO ROOT | APK | IPA</div>
-                        <div class="collapsible-body"><p>Play the most imposrt and best type of game. The only server that is always online</p></div>
-                    </li>
-                    <li class="white">
-                        <div class="collapsible-header"><i class="fa fa-signal green-text"></i>SMART CLASH | NO ROOT | APK | IPA</div>
-                        <div class="collapsible-body"><p>Play the most imposrt and best type of game. The only server that is always online</p></div>
-                    </li>
-                    <li class="white">
-                        <div class="collapsible-header"><i class="fa fa-signal green-text"></i>SMART CLASH | NO ROOT | APK | IPA</div>
-                        <div class="collapsible-body"><p>Play the most imposrt and best type of game. The only server that is always online</p></div>
-                    </li><li class="white">
-                        <div class="collapsible-header"><i class="fa fa-signal green-text"></i>SMART CLASH | NO ROOT | APK | IPA</div>
-                        <div class="collapsible-body"><p>Play the most imposrt and best type of game. The only server that is always online</p></div>
+                        <div class="collapsible-header"><i class="fa fa-signal green-text"></i>{name}  ::  {votes}</div>
+                        <div class="collapsible-body"><p>{description}</p></div>
                     </li>
                 </ul>
+                {/server}
+            </div>
+            <div class="card-footer">
+                {pagination}
             </div>
         </div>
     </div>

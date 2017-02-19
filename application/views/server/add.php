@@ -1,6 +1,4 @@
-<?php
-defined('BASEPATH') OR exit('NO DIRECT SCRIPT ACCESS IS ALLOWED');
-?>
+<?php defined('BASEPATH') OR exit('NO DIRECT SCRIPT ACCESS IS ALLOWED'); ?>
 <div class="row padding-list">
     <div class="col s12 m12 l12">
         <div class="card">

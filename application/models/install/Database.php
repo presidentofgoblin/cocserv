@@ -69,6 +69,11 @@ class Database extends CI_Model
                 'unsigned'          => true,
             ],
 
+            'ownername'     => [
+                'type'              => 'VARCHAR',
+                'constraint'        => 100
+            ],
+
             'ip'            => [
                 'type'              => 'INT',
                 'constraint'        => 25,
@@ -100,6 +105,42 @@ class Database extends CI_Model
         $db->add_key('id',true);
         $db->add_field($serverFields);
         $db->create_table('servers', true);
+
+        /*
+         * MAKE NOTICE TABLE WITH ALL REQUIRED FIELDS
+         */
+        $notice = [
+            'id'            => [
+                'type'              => 'INT',
+                'constraint'        => 20,
+                'unsigned'          => true,
+                'auto_increment'    => true,
+            ],
+
+            'heading'       => [
+                'type'              => 'VARCHAR',
+                'constraint'        => 100,
+            ],
+
+            'description'   => [
+                'type'              => 'VARCHAR',
+                'constraint'        => 500,
+            ],
+
+            'linkone'       => [
+                'type'              => 'VARCHAR',
+                'constraint'        => 500,
+            ],
+
+            'linktwo'       => [
+                'type'              => 'VARCHAR',
+                'constraint'        => 500,
+            ],
+        ];
+
+        $db->add_key('id',true);
+        $db->add_field($notice);
+        $db->create_table('notice', true);
 
         $this->load->view('templates/header');
         $this->load->view('install/home');

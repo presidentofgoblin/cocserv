@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'https://smartclashcoc.com/smartlists/'/*'http://localhost/smartlists/'*/;
+$config['base_url'] = 'http://localhost/';
 
 /*
 |--------------------------------------------------------------------------

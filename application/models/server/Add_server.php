@@ -1,11 +1,6 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: karan
- * Date: 09/01/2017
- * Time: 21:10
- */
+
 class Add_server extends CI_Model
 {
     public function add()
@@ -35,16 +30,17 @@ class Add_server extends CI_Model
         } else {
 
             $data = [
-                'description'  => $this->input->post('desc'),
-                'game'  => $this->input->post('game'),
-                'name'  => $this->input->post('name'),
-                'port'  => $this->input->post('port'),
-                'ip'    => $this->input->post('ip'),
-                'votes' => 0,
-                'owner' => $this->session->userid,
+                'description'   => $this->input->post('desc'),
+                'game'          => $this->input->post('game'),
+                'name'          => $this->input->post('name'),
+                'port'          => $this->input->post('port'),
+                'ip'            => $this->input->post('ip'),
+                'votes'         => 0,
+                'owner'         => $this->session->userid,
+                'ownername'     => $this->session->username,
             ];
 
-            /*if($this->db->insert('servers', $data)){
+            if($this->db->insert('servers', $data)){
                 $this->session->set_flashdata('msg', '
                 <div class="card teal white-text">
                     <div class="card-content">
@@ -66,8 +62,7 @@ class Add_server extends CI_Model
                     </div>
                 </div>');
                 redirect(base_url('server/add'));
-            }*/
-            $this->db->insert('servers', $data);
+            }
         }
     }
 }

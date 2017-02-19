@@ -11,7 +11,7 @@ class Server extends CI_Controller
             $this->load->model('server/Add_server');
             $this->Add_server->add();
         } else {
-            show_error('You are not logged in. Login to create a server', '500');
+            show_error('You are not logged in. Login to create a server', 401, 'Not Logged In');
         }
     }
 }

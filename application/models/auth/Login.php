@@ -16,12 +16,14 @@ class Login extends CI_Model
             $this->load->view('templates/footer');
         } else
         {
-            $usr = $this->input->post('username');
+            /*$usr = $this->input->post('username');
             $sql = "SELECT * FROM users WHERE username = '$usr'";
-            $query = $this->db->query($sql);
-            //$row = $query->result_array();
+            $query = $this->db->query($sql);*/
+            $query = $this->db->get_where('users', [
+                                    'username' => $this->input->post('username'),
+                                ]);
 
-            if($query->num_rows() > 0){
+            if($query->num_rows() == 1){
                 foreach($query->result() as $row):
                     if(password_verify($this->input->post('password'), $row->password)){
 
@@ -41,6 +43,7 @@ class Login extends CI_Model
                             'apikey'   => $row->apikey,
                             'userid'   => $row->id,
                             'loggedin' => TRUE,
+                            'acctype'  => $row->acctype,
                         ];
                         $this->session->set_userdata($session);
                         redirect(base_url());

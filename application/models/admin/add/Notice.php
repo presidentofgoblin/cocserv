@@ -1,12 +1,8 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: ramad
- * Date: 1/18/2017
- * Time: 3:54 PM
- */
-class Notice
+defined('BASEPATH') OR exit('NO DIRECT SCRIPT ACCESS IS ALLOWED');
+
+class Notice extends CI_Model
 {
 
 }
